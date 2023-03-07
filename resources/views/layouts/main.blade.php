@@ -7,9 +7,9 @@
     <title>My Contact</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
     <!-- Style -->
-    <link href="{{asset('assets/bootstrap-icons/font/bootstrap-icons.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet">
+    <link href="{{asset('public/assets/bootstrap-icons/font/bootstrap-icons.css')}}" rel="stylesheet">
+    <link href="{{asset('public/assets/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('public/assets/css/custom.css')}}" rel="stylesheet">
 </head>
 <body>
 <!-- navbar -->
@@ -49,6 +49,6 @@
     </div>
 </nav>
 @yield('content')
-<script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('public/assets/js/bootstrap.bundle.min.js')}}"></script>
 </body>
 </html>
